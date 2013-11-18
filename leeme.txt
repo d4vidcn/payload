@@ -1,0 +1,26 @@
+	
+	************** LOCALHOST **************
+	
+	Os podéis bajar (si no tenéis aún) alguna herramienta para crear servidores locales, yo os recomiendo XAMPP:
+
+	http://www.apachefriends.org/en/xampp-windows.html
+
+	Se creará una carpeta htdocs en C:/xampp/htdocs y ahí simplemente copiais el contenido que os he pasado con la carpeta payload, después abrid el navegador y entráis como localhost/payload/ y os aparecerá la web. Aseguraos que el programa está lanzado cuando intentéis acceder sino os saldrá que no encuentra la ruta que le pongáis.
+
+
+	************** TEXTOS **************
+
+	- Los textos están en "assets/js/textoAcambiar.js"
+	- Puesto que las páginas creadas son index.html, project.html, alliances.html y career.html, los documentos para cada una son textIndex.js, textProject.js, textAlliances.js, textCareer.js.
+	- Ahí sólo tenéis que cambiar lo que ponga hasta 'CÓDIGO', a partir de ahí no hace falta cambiar nada.
+	- Una vez cambiado el texto ahí, con guardar el documento y recargar el navegador ya os debería aparecer la modificación.
+
+
+	************** OTRAS COSAS **************
+
+	- Para 'project', el título de las pestañas que hay abajo hay que cambiarlo desde el mismo project.html, abajo del todo hay 3 lineas donde se cambia eso.
+	- Imagenes (si no queréis meteros con esto dejadlo apuntado y cuando tengáis el texto lo meto yo todo):
+		+ La imagen de los inversores se cambia en el archivo main.css en la linea 935.
+		+ La imagen de la cabecera de index.html se cambia en el archivo main.css en la linea 6.
+		+ Las imagenes del slider de index.html se cambian en ese mismo archivo en las lineas 115, 118, 121 y 124.
+	- El mapa se cambia en el archivo map.js que está en assets/js/, ahí hay dos lineas con coordenadas, la primera es para poner centrado el mapa en ese punto y la segunda para poner el marcador que aparece encima del punto.
