@@ -28,7 +28,7 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
           	</a>
-          	<a class="brand scroller" data-section="html" href="index.html">
+          	<a class="brand" data-section="html" href="index.html">
           		<img src="assets/img/logo2.png" style="height:55px!important;width:167px!important;">
           	</a>
 		  	<div class="nav-collapse collapse">
@@ -82,57 +82,69 @@
 		<div class="container-fluid bottom-arrow" id="contacto">
 			<div class="container dark">
 				<h1 id="contactoCabecera"></h1>	
-				
-				<div class="get-started-now">
-	        		<div class="span5 white-panel button-text-panel">
-	            		<h3 id="instruccionesCab"></h3>
-	            		<p id="instrucciones1"></p>
-	            		<p id="instrucciones2"></p>
-	            		<p id="instrucciones3"></p>
-	            		<p id="instrucciones4"></p>
-	        		</div>
-	        		
-	    		</div>
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="span6 get-started-now">
+		        			<div class="white-panel button-text-panel">
+		            			<h3 id="instruccionesCab"></h3>
+		            			<p id="instrucciones1"></p>
+		            			<p id="instrucciones2"></p>
+		            			<p id="instrucciones3"></p>
+		            			<p id="instrucciones4"></p>
+		        			</div>
+		        			<div>
+								<p id="advice"></p>
 
-				<div class="row span6 formulario">			
-					<form email.php>
-						<div class="control-group">
-					    	<label class="control-label" for="inputPosition">Position</label>
-					    	<div class="controls">
-					      		<input type="text" class="span4" id="inputPosition" placeholder="Click on the positions above" readonly="readonly">
-					    	</div>
-					  	</div>
+								<p id="aboutData"></p>
+							</div>
+		        		</div>
+		        		<div class="span6 formulario">			
+                            <form method="post" action="submitForm.php" enctype="multipart/form-data" id="myform">
+								<div class="control-group">
+							    	<label class="control-label" for="inputPosition">Position</label>
+							    	<div class="controls">
+							      		<input type="text" class="span8" id="inputPosition" placeholder="Click on the positions above" readonly="readonly">
+							    	</div>
+							  	</div>
 
-						<div class="control-group">
-					    	<label class="control-label" for="inputName">Name</label>
-					    	<div class="controls">
-					      		<input type="text" class="span4" id="inputName" placeholder="Name">
-					    	</div>
-					  	</div>
-					  	
-					  	<div class="control-group">
-					    	<label class="control-label" for="inputEmail">Email</label>
-					    	<div class="controls">
-					      		<input type="text" class="span4" id="inputEmail" placeholder="Email">
-					    	</div>
-					  	</div>
-					  	
-					  	<div class="control-group">
-					    	<label class="control-label" for="inputContact">Message</label>
-					    	<div class="controls">
-					     		<textarea id="inputContact" class="span4" rows="4"></textarea>
-					    	</div>
-					  	</div>
-					  	
-					  	<div class="control-group">
-					    	<div class="controls">
-					      		<button type="submit" class="btn btn-purple">Submit</button>
-					    	</div>
-					  	</div>
-					</form>
+								<div class="control-group">
+							    	<label class="control-label" for="inputName">Name</label>
+							    	<div class="controls">
+							      		<input type="text" class="span8" id="inputName" placeholder="Name">
+							    	</div>
+							  	</div>
+							  	
+							  	<div class="control-group">
+							    	<label class="control-label" for="inputEmail">Email</label>
+							    	<div class="controls">
+							      		<input type="text" class="span8" id="inputEmail" placeholder="Email">
+							    	</div>
+							  	</div>
+							  	
+							  	<div class="control-group">
+							    	<label class="control-label" for="inputContact">Message</label>
+							    	<div class="controls">
+							     		<textarea id="inputContact" class="span8" rows="4"></textarea>
+							    	</div>
+							  	</div>
+							  	
+							  	<div class="control-group">
+							  		<label class="control-label" for="inputFile">Upload your CV</label>
+							  		<div class="controls">
+							  			<input type="file" name="file" size="1">
+							  		</div>
+							  	</div>
+
+							  	<div class="control-group">
+							    	<div class="controls">
+							      		<button type="submit" class="btn btn-purple" id="submit">Submit</button>
+							    	</div>
+							  	</div>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
-
 		</div>   <!-- End Contact -->  
 
 	    <!-- Begin Seperator Aside -->
@@ -187,6 +199,7 @@
     <script type="text/javascript" src="assets/js/textCareer.js"></script>
     <script type="text/javascript" src="assets/js/text.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/js/submitForm.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
     <script>
 		// Can also be used with $(document).ready()

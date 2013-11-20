@@ -26,32 +26,24 @@ perfil1Desc = "Co-founder & CEO. Propulsion engineer & launch vehicle chief desi
 perfil1Pic = "assets/img/raulT.png";
 prof1linkedIn = "http://www.linkedin.com/asdfasdfasdf";
 prof1twitter = "http://www.twitter.com/raultorres0";
-prof1fb = ""; 
-prof1mail = "mailto:david@añlsdf.com"; 
 
 perfil2Nombre = "Raul Verdú";
 perfil2Desc = "Co-fouder & R&DO.Facilities engineer & Industrial chief designer. #BikePassion";
 perfil2Pic = "assets/img/raulA.png";
 prof2linkedIn = "";
 prof2twitter = "";
-prof2fb = ""; 
-prof2mail = ""; 
 
 perfil3Nombre = "Eleazar González";
 perfil3Desc = "Propulsion engineer & analyst.";
 perfil3Pic = "assets/img/raulA.png";
 prof3linkedIn = "";
 prof3twitter = "";
-prof3fb = ""; 
-prof3mail = ""; 
 
 perfil4Nombre = "Mariano Alfaro";
 perfil4Desc = "Intrumentation engineer.";
 perfil4Pic = "assets/img/raulA.png";
 prof4linkedIn = "";
 prof4twitter = "";
-prof4fb = ""; 
-prof4mail = ""; 
 
 /* CONTACTO */
 contactoCabecera = "Contact";
@@ -84,29 +76,21 @@ document.getElementById("perfil1Nombre").innerHTML = perfil1Nombre;
 document.getElementById("perfil1Desc").innerHTML = perfil1Desc;
 //document.getElementById("prof1linkedIn").innerHTML = prof1linkedIn;
 //document.getElementById("prof1twitter").innerHTML = prof1twitter;
-document.getElementById("prof1fb").innerHTML = prof1fb;
-document.getElementById("prof1mail").innerHTML = prof1mail;
 document.getElementById("prof2").setAttribute("src", perfil2Pic);
 document.getElementById("perfil2Nombre").innerHTML = perfil2Nombre;
 document.getElementById("perfil2Desc").innerHTML = perfil2Desc;
 document.getElementById("prof2linkedIn").innerHTML = prof2linkedIn;
 document.getElementById("prof2twitter").innerHTML = prof2twitter;
-document.getElementById("prof2fb").innerHTML = prof2fb;
-document.getElementById("prof2mail").innerHTML = prof2mail;
 document.getElementById("prof3").setAttribute("src", perfil3Pic);
 document.getElementById("perfil3Nombre").innerHTML = perfil3Nombre;
 document.getElementById("perfil3Desc").innerHTML = perfil3Desc;
 document.getElementById("prof3linkedIn").innerHTML = prof3linkedIn;
 document.getElementById("prof3twitter").innerHTML = prof3twitter;
-document.getElementById("prof3fb").innerHTML = prof3fb;
-document.getElementById("prof3mail").innerHTML = prof3mail;
 document.getElementById("prof4").setAttribute("src", perfil4Pic);
 document.getElementById("perfil4Nombre").innerHTML = perfil4Nombre;
 document.getElementById("perfil4Desc").innerHTML = perfil4Desc;
 document.getElementById("prof4linkedIn").innerHTML = prof4linkedIn;
 document.getElementById("prof4twitter").innerHTML = prof4twitter;
-document.getElementById("prof4fb").innerHTML = prof4fb;
-document.getElementById("prof4mail").innerHTML = prof4mail;
 document.getElementById("contactoCabecera").innerHTML = contactoCabecera;
 document.getElementById("contactoSubcabecera").innerHTML = contactoSubcabecera;
 document.getElementById("emailCompania").innerHTML = emailCompania;

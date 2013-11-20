@@ -22,6 +22,8 @@ contactoCabecera = "Your future in SPACE";
 contactoSubcabecera = "Our location:";
 emailCompania = "contact@payloadaerospace.com";
 
+advice = "<b>ADVICE: Payload Aerospace</b> is a equal opportunity employeer. Candidate selection will not be influencied by rece, colour, religion, nationality, sex, age or sexual orientation and in any case will be necesary to inform about this to <b>Payload Aerospace</b>.";
+aboutData = "<b>ABOUT DATA PROTECTION</b>: The information provided by our candidates will be incorporate to a file directory owned by <b>Payload Aerospace</b> in order to study individually. According to Art.5 of Data Protection Organic Law, candidates can exercise their right to access, rectification and opposition in the cancellation terms set forth in current regulations through: <a href='mailto:career@payloadaerospace.com'>career@payloadaerospace.com</a>";
 
 /* 	==============================================
 						CODIGO
@@ -42,5 +44,8 @@ document.getElementById("instrucciones1").innerHTML = instrucciones1;
 document.getElementById("instrucciones2").innerHTML = instrucciones2;
 document.getElementById("instrucciones3").innerHTML = instrucciones3;
 document.getElementById("instrucciones4").innerHTML = instrucciones4;
+
+document.getElementById("advice").innerHTML = advice;
+document.getElementById("aboutData").innerHTML = aboutData;
 
 document.getElementById("contactoCabecera").innerHTML = contactoCabecera;
