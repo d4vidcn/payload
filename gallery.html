@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>PayLoad Aerospace</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="">
+    <meta name="author" content=""> 
+
+
+
+    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-image-gallery.css">
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/alliances.css" rel="stylesheet">    
+    <link href="assets/css/entypo.css" rel="stylesheet"> 
+    <link href="assets/css/responsive-video.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand scroller" data-section="html" href="index.html">
+                <img src="assets/img/logo2.png" style="height:55px!important;width:167px!important;">
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="#" class="" id="navbar1"></a></li>
+                    <li><a href="index.html" class="scroller" data-section="#about" id="navbar2"></a></li>
+                    <li><a href="project.html" class="scroller" data-section="#proyecto" id="navbar3"></a></li>
+                    <li><a href="alliances.html" class="scroller" id="navbar4"></a></li>
+                    <li><a href="index.html#team" class="scroller" data-section="#team" id="navbar5"></a></li>
+                    <li><a href="#" class="scroller" id="navbar6"></a></li>
+                    <li><a href="index.html#contact" class="scroller" data-section="#contact" id="navbar7"></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+        <div style="padding-top:40px;"></div>
+        <!-- START-->
+        <div class="container-fluid featurette legalbg">
+            <h1 class="featurette-heading">MEDIA GALLERY</h1>
+        </div>
+        <div class="featurette-divider"></div>
+        
+        <div class="container-fluid legalbg">
+            <div class="row-fluid">
+                <div class="span12" style="text-align:center;">
+                    <form class="form-inline" style="text-align:center;padding-top:50px;">
+                        <div class="form-group">
+                            <button id="video-gallery-button" type="button" class="btn btn-warning btn-lg">
+                                <i class="glyphicon glyphicon-film"></i>Launch Video Gallery
+                            </button>
+                            <button id="image-gallery-button" type="button" class="btn btn-primary btn-lg">
+                                <i class="glyphicon glyphicon-picture"></i>Launch Image Gallery
+                            </button>
+                        </div>
+                    </form>
+
+                    <br>
+                    <div>
+                        <div class="span6">
+                            <h4 class="tituloVideo">Video1</h4>
+                            <div class="flexslider">
+                                <div class="flex-video widescreen">
+                                    <iframe src="http://www.youtube.com/embed/TEMlExCS1dE" frameborder="0" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                            <h4 class="tituloVideo">Video2</h4>
+                            <div class="flexslider">
+                                <div class="flex-video widescreen">
+                                    <iframe src="http://www.youtube.com/embed/TEMlExCS1dE" frameborder="0" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                            <h4 class="tituloVideo">Video3</h4>
+                            <div class="flexslider">
+                                <div class="flex-video widescreen">
+                                    <iframe src="http://www.youtube.com/embed/TEMlExCS1dE" frameborder="0" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <div id="links"></div>
+                        </div>
+                    </div>
+                    <!-- The container for the list of example images -->
+                    <br>
+                </div>
+                <div class="span12">
+                    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+                    <div id="blueimp-gallery" class="blueimp-gallery">
+                        <!-- The container for the modal slides -->
+                        <div class="slides"></div>
+                            <!-- Controls for the borderless lightbox -->
+                        <h3 class="title"></h3>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="close">×</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                        <div class="modal fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title"></h4>
+                                    </div>
+                                    <div class="modal-body next"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default pull-left prev">
+                                            <i class="glyphicon glyphicon-chevron-left"></i>
+                                            Previous
+                                        </button>
+                                        <button type="button" class="btn btn-primary next">                                        Next
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-arrow"></div>
+        <!-- END -->
+
+        <!-- Begin Seperator Aside -->
+        <div class="container-fluid seperator-type dark-bg" id="redes" >
+            <div class="container">
+                <div class="row-social">
+                    <div class="text-center">
+                        <div class="slogan"><p id="redesCabecera"></p></div>
+                        <a class="btn social-btn" href="#" id="idTwitter" data-placement="bottom" data-toggle="tooltip" title="@payloadaerospace">
+                            <i class="icono-twitter"></i>
+                        </a>
+                        <a class="btn social-btn" href="#" data-placement="bottom" data-toggle="tooltip" title="Facebook">
+                            <i class="icono-facebook"></i>
+                        </a>
+                        <a class="btn social-btn" href="#" data-placement="bottom" data-toggle="tooltip" title="Look me up at Linkedin">
+                            <i class="icono-linkedin"></i>
+                        </a>
+                        <a class="btn social-btn" href="#" data-placement="bottom" data-toggle="tooltip" title="Youtube">
+                            <i class="icono-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // End Seperator Aside -->
+                         
+        <!-- Begin Footer -->
+        <footer class="footer-type">
+            <div class="container">
+                <div class="row">
+                    <div class="span24 text-center" style="float:right;">
+                        <p class="copyright" id="copyright"></p>
+                    </div>
+                    <div class="span24 text-center" style="float:left;">
+                        <p><a href="legal.html">Legal disclaimer</a> | <a href="dataprotection.html">Data protection</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            <!-- // End Footer -->
+    </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="assets/js/bootstrap-image-gallery.js"></script>
+<script src="assets/js/demo.js"></script>
+<script src="assets/js/text.js"></script>
+<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+</body> 
+</html>

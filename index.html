@@ -12,6 +12,7 @@
     <link href="assets/css/main.css" rel="stylesheet">    
     <link href="assets/css/entypo.css" rel="stylesheet">    
     <link href="assets/css/flexslider.css" rel="stylesheet">    
+    <link href="assets/css/responsive-video.css" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/ico/favicon.ico">
 
 </head>
@@ -34,21 +35,10 @@
                   	<li><a href="#" class="toggle_video" id="navbar1"></a></li>
                     <li><a href="#" class="scroller" data-section="#about" id="navbar2"></a></li>
                     <li><a href="project.html" class="scroller" data-section="project.html" id="navbar3"></a></li>
-                    <!-- <li><a href="#" class="scroller" data-section="#partners" id="navbar4"></a></li> -->
-                    <li><a href="alliances.html" class="scroller" data-section="#" id="navbar5"></a></li>
-                    <li><a href="#" class="scroller" data-section="#team" id="navbar6"></a></li>
+                    <li><a href="alliances.html" class="scroller" id="navbar4"></a></li>
+                    <li><a href="#" class="scroller" data-section="#team" id="navbar5"></a></li>
+                    <li><a href="#" class="scroller" data-section="#media" id="navbar6"></a></li>
                     <li><a href="#" class="scroller" data-section="#contact" id="navbar7"></a></li>
-                    <!-- <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Dropdown
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Example Link</a></li>
-                            <li><a href="#">Example Link 2</a></li>
-                            <li><a href="#">Example Link 3</a></li>
-                        </ul>
-                    </li> -->
                 </ul>
 	        </div>
         </div>
@@ -118,8 +108,13 @@
 	                </div>
 					
 					<div class="span5 offset1">
-                   
-	                    <iframe id="video" width="100%" height="290"></iframe>
+                   		<div class="flexslider">
+	          				<ul class="slides">
+			            		<li>
+			  	    	    		<img src="assets/img/prensa1.jpg" />
+			  	    			</li>
+			  	    		</ul>
+			  	    	</div>
 	                </div>
 	            </div>
 	        </div>
@@ -211,35 +206,50 @@
 	    <!-- End Team -->  
 	       	
 	    <!-- Begin Prensa Section -->
-	    <div id="prensa" class="page-type">
+	    <div id="media" class="page-type">
 	    	<div class="container">
 	    		<div class="span12" style="margin-left:0px;">
-	    			<div class="row-fluid">
-	        			<div class="span5">
-	        				<h1>Media</h1>
-	        				<hr style="border-top-color: #000;border-bottom-color: #000;">
-	        			</div>
-                                        <div class="span7">
-	    					<div class="flexslider">
-          						<ul class="slides">
-		            				<li>
-		  	    	    				<img src="assets/img/prensa1.jpg" />
-		  	    					</li>
-		  	    					<li>
-		  	    	    				<img src="assets/img/prensa2.jpg" />
-		  	    					</li>
-		  	    					<li>
-		  	    	    				<img src="assets/img/prensa1.jpg" />
-		  	    					</li>	
-		  	    					<li>
-		  	    	    				<img src="assets/img/prensa2.jpg" />
-		  	    					</li>
-          						</ul>
-        					</div>
-	        			</div>	
+	    			<div class="row-fluid" style="text-align:center;">
+	        			<h1 style="text-align:left;margin-left:40px;">Media</h1>
+	        			<hr style="border-top-color: #000;border-bottom-color: #000;">
+	        			<div>
+		        			<div class="span6">
+		        				<div class="flexslider">
+	          						<ul class="slides">
+			            				<li>
+		        							<div class="flex-video widescreen">
+		        								<iframe id="video" frameborder="0" allowfullscreen=""></iframe>
+		        							</div>
+		        						</li>
+		        					</ul>
+		        				</div>
+		        			</div>
+		        			<div class="span6">
+		    					
+		    					<div class="flexslider">
+	          						<ul class="slides">
+			            				<li>
+			  	    	    				<img src="assets/img/prensa1.jpg" />
+			  	    					</li>
+			  	    					<li>
+			  	    	    				<img src="assets/img/prensa2.jpg" />
+			  	    					</li>
+			  	    					<li>
+			  	    	    				<img src="assets/img/prensa1.jpg" />
+			  	    					</li>	
+			  	    					<li>
+			  	    	    				<img src="assets/img/prensa2.jpg" />
+			  	    					</li>
+	          						</ul>
+	        					</div>
+	        					
+	             			</div>	
 
+	             		</div>
 	    			</div>
 				</div>
+				<center><a href="gallery.html" style="text-decoration:underline;"><b>More media gallery</b></a></center>
+				
 			</div>
 		</div>
 	      <!-- #contact -->   	

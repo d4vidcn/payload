@@ -2,9 +2,9 @@
 navbar1 = "Development Blog";
 navbar2 = "Our company";
 navbar3 = "Project";
-//navbar4 = "Investor relations";
-navbar5 = "Alliances and partnerships";
-navbar6 = "PLD team";
+navbar4 = "Alliances";
+navbar5 = "PLD team";
+navbar6 = "Media";
 navbar7 = "Contact";
 
 /* REDES */
@@ -25,7 +25,7 @@ copyright = "&copy; Payload Aerospace, S.L, All rights reserved.";
 document.getElementById("navbar1").innerHTML = navbar1;
 document.getElementById("navbar2").innerHTML = navbar2;
 document.getElementById("navbar3").innerHTML = navbar3;
-//document.getElementById("navbar4").innerHTML = navbar4;
+document.getElementById("navbar4").innerHTML = navbar4;
 document.getElementById("navbar5").innerHTML = navbar5;
 document.getElementById("navbar6").innerHTML = navbar6;
 document.getElementById("navbar7").innerHTML = navbar7;
